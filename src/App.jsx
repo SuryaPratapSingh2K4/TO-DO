@@ -19,19 +19,13 @@ function App() {
     }
   ]
 
-  const [todomsg, settodomsg] = useState("");
-
-  const newItem = (name,date) => {
-
-  }
-
   return (
     <div className="justify-center items-center h-screen w-full">
       <div className="w-screen items-center flex flex-col py-10">
         <h1 className="text-4xl font-bold text-center">Todo App</h1>
       </div>
-      <TodoForm newItem={}/>
-      <TodoItemss Items={Items}/>
+      <TodoForm />
+      <TodoItemss/>
     </div>
   );
 }

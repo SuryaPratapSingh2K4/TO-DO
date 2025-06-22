@@ -11,6 +11,7 @@ function TodoItem({TodoName, TodoDate}) {
                 <div className="text-center w-1/4">
                     {TodoDate}
                 </div>
+                <Button classname='bg-blue-600 hover:bg-blue-800 mr-8'>Update</Button>
                 <Button classname="bg-red-600 hover:bg-red-800 mr-8">Delete</Button>
             </div>
         </>
